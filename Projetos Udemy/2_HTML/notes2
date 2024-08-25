@@ -1,0 +1,70 @@
+O que é HTML?
+R: é uma linguagem de marcação que utilizamos para estruturar paginas 
+na web e não é necessario um software para compilar HMTML
+
+O que é CSS?
+R: Uma linguagem que utilizamos para estilizar um site
+- sem css todas as pgs são iguais
+
+TAGS são representadas por <p>
+- são os elementos principais do html
+- no meio temos que colocar um conteudo e deposi fechar a tag
+ex: <p>Texto</p>
+
+A estrutura do HTML
+
+DOCTYPE: declara a verseão do html
+html: envolve todo o codigo do html
+head: tudo que não aparece
+body: é onde todos elementos visuais estão
+
+*TITULOS
+- utilizamos para separar seções
+- nome da tag é h* 
+
+*PARAGRAFOS
+- utilizamos paragrafos para inserir textos menores
+- a tag é <p>
+
+*TAGS_SEM_CONTEUDO
+- possuem recursos como quebrar linha
+- ausencia da terra de fechamento
+- não é mto utilizado, pois podemos usar o css
+
+*COMENTARIOS
+- não são exibidos na pag
+ex: <!-- Esté é um comentario -->
+
+*ATRIBUTOS
+- A tag a é responsavel por nos direcionar a uma nova pag
+- <a href="www">Google</a>
+- para abrir em uma nova aba utilizamos o atributo target com valor_bank
+
+*IMAGEM_NO_HTML
+- podemos inserior no nosso site com a tag img
+- o caminho relativo até a imagem é inserido no atricuto src
+- normalmente colocamos a imagem em uma pasta
+
+*ATRIBUTO_ALT
+- inserimos nele um texto que descreve a imagem
+
+*LISTAS_NÃO_ORDENADAS
+- criadas por ul
+- cada item é li
+
+*LISTAS_NÃO_ORDENADAS
+- tag ol
+- tag li
+
+*TABELAS
+- tag table
+- são estruturas complexas no html
+- cada linha é criada em uma tag tr e os dados ficam em td
+- no cabeçalho utilizamos a tag th
+
+*TAG_DIV
+- a tag div é muito utilizada
+- é utilizada para criar divisões/seções no site
+
+*CRIANDO_ESTRUTURA_BASICA
+- basta digitar ! e pressionar tab

@@ -1,0 +1,81 @@
+*MANEIRAS DE ADICIONAR CSS*
+
+Inline: quando estilos são adicionados por um atributo
+Interal: qndo o CSS é adicionado na tag head
+External: quando o CSS é adicionado através de um arquivo externo e depois importado no HTML
+
+ANATOMIA DO CSS
+
+- cada regra tem um ;
+
+*ORDEM_DO_CSS
+inline > interal = external > padrão do navegador
+- isso acontece qndo temos temos estilos no mesmo elemento
+
+*MULTIPLOS_ARQUIVOS_CSS
+- arquivos importados por ultimo tem mais prioridade
+- boa pratica pois possibilita a divisão de CSS por paginas
+
+*CLASSES_E_IDS
+- ids sao utilizados para elementos unicos
+- classes servem pra um ou mais elementos
+
+*CLASSES
+- serao inseridas atraves de um atributo de html
+- o seletor fica <nome_da_classe>
+
+*ID 
+- o seletor fica #<nome_do_id>
+
+*ORDEM_DOS_SELETORES
+
+e se a tag tiver um id e classe?
+id > classe > seletor de tag
+- o ID é o mais forte
+
+*CORES_DO_CSS
+são separados em grupos
+- RGB, HEXADECIMAL, HSL
+
+*RGBA
+- quase a mesma sintaxe do rgb, só que o ultimo muda a opacidade da cor
+- rgba(0-222,0-255,0-255,0-1)
+
+*HSL
+- HEX > RGB> HSL > nomes de cor
+.hsl {
+  color: hsl(100, 20%, 50%);
+}
+
+.hsl-2 {
+  color: hsl(201, 82%, 48%);
+}
+
+*BACKGROUND-COLOR
+- mudar a cor do fundo 
+-background-color: "cor"
+
+*BACKGROUND-IMAGE
+-muda cor do background da imagem
+
+*CENTRALIZAR IMAGEM
+.not-centered-bg, 
+.centered-bg {
+  height: 400px;
+  width: 400px;
+  background-image: url("../img/bridge.jpg");
+}
+
+.centered-bg {
+  background-position: center;
+  background-size: cover;
+}
+
+BOX MODEL:
+- é uma entidade que é criada em todo elemento de HTML
+- Ele consiste em quatro partes ALTURA, LARGURA, PADDING, BORDER E MARGIN
+- todas podem ser alteradas no css
+
+ALTURA E LARGURA são o core do box model
+
+PADDING = espaçamento interno
